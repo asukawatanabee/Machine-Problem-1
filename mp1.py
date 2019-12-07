@@ -8,7 +8,7 @@ Created on Sun Nov 24 23:16:39 2019
 
 import matplotlib.pyplot as plt
 def f(n):
-    if n < 9:
+    if n <= 9:
         return n*n-7
     return f(n-10)
 
